@@ -1,0 +1,499 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.loginB 
+{
+  text-decoration: none;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 20px;
+    color: darkred;
+    opacity: 0.7;
+}
+.loginB:hover
+{
+  color: darkblue;
+}
+
+body
+    {
+      background-image: url("home2.jpg");
+      background-size: 100%;
+      font-family: cursive;
+    }
+
+
+    .avatar
+    {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        position: absolute;
+        top: -80px;
+        left: calc(50% - 64px);
+    }
+
+
+.loginbox
+{
+    width: 320px;
+    height: 420px;
+    background:black;
+    opacity: 0.82;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+.loginbox p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.loginbox1
+{
+    width: 1600px;
+    height: 880px;
+    background: black;
+    opacity: 0.72;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.loginbox1 p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox1 input
+{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* 
+.sidebar{
+  max-width:200px;
+  height: 800px;
+  background:rgba(0, 0, 0, 0.75);  
+  align-content: flex-start;
+  border:1px solid #111;
+  border-radius:4px;
+  box-shadow:0px 4px 5px rgba(0, 0, 0, 0.75);
+}
+.link{
+  font-size:16px;
+  font-weight:300;
+  text-align:center;
+  position:relative;
+  height:40px;
+  line-height:40px;
+  margin-top:10px;
+  overflow:hidden;
+  width:90%;
+  margin-left:5%;
+  cursor:pointer;
+}
+.link:after{
+  content: '';
+  position:absolute;
+  width:80%;
+  border-bottom:1px solid rgba(255, 255, 255, 0.5);
+  bottom:50%;
+  left:-100%;
+  transition-delay: all 0.5s;
+  transition: all 0.5s;
+}
+.link:hover:after,
+.link.hover:after{
+  left:100%;
+}
+.link .text{
+  text-shadow:0px -40px 0px rgba(255, 255, 255, 1);
+  transition:all 0.75s;
+  transform:translateY(100%) translateZ(0);
+  transition-delay:all 0.25s;
+}
+.link:hover .text,
+.link.hover .text{
+  text-shadow:0px -40px 0px rgba(255, 255, 255, 0);
+  transform:translateY(0%) translateZ(0) scale(1.1);
+  font-weight:600;
+}
+*/
+
+/* for cards */
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400");
+
+.about {
+  
+  background-color: #2c303a;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  color: #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  z-index: 3;
+  border-bottom: solid 1px #131418;
+}
+  a {
+     color: white;
+     margin: 0 5px;
+     padding: 2px 3px;
+     text-decoration: none;
+     position: relative;
+     transition: all 0.3s ease;
+     z-index: 1;
+     display: flex;
+     align-items: center;
+  }
+     a:after {
+        content: "";
+        position: absolute;
+        width: calc(100% - 6px);
+        height: 1px;
+        background-color: #46b7a7;
+        bottom: 0;
+        transition: all 0.3s ease;
+     }
+     a:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0px;
+        background-color: #46b7a7;
+        right: 0;
+        bottom: 0;
+        transition: all 0.3s 0.3s ease;
+        z-index: -1;
+     }
+
+     
+
+  .one {
+     width: 2px;
+     height: 20px;
+     background-color: #444857;
+     margin: 0 10px 0 5px;
+  }
+  .two {
+     width: 4px;
+     height: 4px;
+     border-radius: 100%;
+     background-color: #444857;
+     margin: 0 5px;
+  }
+
+
+.wrapper {
+  width: 100vw;
+  margin: 0 auto;
+  height: 400px;
+  background-color: #161616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+     height: 700px;
+  }
+}
+
+.content {
+  max-width: 1024px;
+  width: 100%;
+  padding: 0 4%;
+  padding-top: 150px;
+  margin: 0 auto;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+     padding-top: 300px;
+     flex-direction: column;
+  }
+}
+
+.Link{
+
+  text-decoration:none;
+}
+.card {
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
+  height: 250px;
+  background-color: black;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+  border: 2px solid rgba(7, 7, 7, 0.12);
+  font-size: 16px;   
+  transition: all 0.3s ease;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.opti {
+  background: url('search-engine.png');
+  height: 128px;
+  width: 128px;
+  display: block;
+}
+
+.supp {
+  background: url('seller.png');
+  height: 128px;
+  width: 128px;
+  display: block;
+}
+
+.prod {
+  background: url('ai.png');
+  height: 128px;
+  width: 128px;
+  display: block;
+}
+
+.homme {
+  background: url('home.png');
+  height: 64px;
+  width: 64px;
+  display: block;
+}
+
+
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.card .title {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+  color:black;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+}
+
+.LinkTest
+{
+  text-decoration: none;
+  color:  white;
+  width: 0px;
+  align-content: center;
+}
+
+
+.nav
+{
+  text-align: center;
+  
+}
+
+.TAB
+{
+  width: 100%;
+  
+}
+
+.card .text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  font-weight: 200;
+  letter-spacing: 2px;
+  opacity: 0;
+  max-height:0;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  height: 400px;
+}
+
+.card:hover .info {
+  height: 90%;
+}
+
+.card:hover .text {
+  transition: all 0.3s ease;
+  opacity: 1;
+  max-height:40px;
+}
+
+.card:hover .icon {
+  background-position: -120px;
+  transition: all 0.3s ease;
+}
+
+.card:hover .icon i {
+  background: linear-gradient(90deg, #FF7E7E, #FF4848);
+ -webkit-text-fill-color: transparent;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+/* nav bar */
+
+.nav .ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav .li {
+  float: right;
+}
+
+.nav .li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav .li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.nav .active {
+  background-color: #4CAF50;
+}
+
+
+select {
+  width: 100px;
+}
+
+option {
+  width: 100px;
+}
+
+btn btn-warning{
+  width: 300px;
+}
+/* Select Box */
+
+
+
+

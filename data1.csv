@@ -1,0 +1,106 @@
+Commodity,Component,Supplier,Cost $,Supplier Performance Rating,Component Performance Rating
+HDD 500GB,Part 1, Samsung,10,5,6
+HDD 500GB,Part 2, Intel,11,7,7
+HDD 500GB,Part 3, Western Digital,12,6,4
+HDD 500GB,Part 4,Vd Intellisys Technologies Private Limited,23,8,6
+HDD 500GB,Part 5,Printer Care System,20,6,7
+HDD 500GB,Part 6,Saicon Enterprises,8,2,6
+HDD 500GB,Part 7,Network Information Systems,3,1,8
+HDD 500GB,Part 8,Southern Circuits,30,10,6
+HDD 500GB,Part 9,Nvidia,6,4,7
+HDD 500GB,Part 10,AMD,12,7,8
+HDD 500GB,Part 11,Eastern Digital,10,6,6
+HDD 500GB,Part 12,Northern Circuits,16,6,7
+HDD 500GB,Part 13,IBM,15,7,5
+HDD 500GB,Part 14,Micromax,14,8,8
+HDD 500GB,Part 15,Northwestern Software Solutions,19,5,9
+CPU,Part 16, Samsung,8,7,7
+CPU,Part 17, Intel,6,4,5
+CPU,Part 18, Western Digital,4,5,4
+CPU,Part 19,Vd Intellisys Technologies Private Limited,2,3,2
+CPU,Part 20,Printer Care System,10,6,7
+CPU,Part 21,Saicon Enterprises,24,9,7
+CPU,Part 22,Network Information Systems,28,9,8
+CPU,Part 23,Southern Circuits,20,7,8
+CPU,Part 24,Nvidia,25,8,9
+CPU,Part 25,AMD,13,7,6
+CPU,Part 26,Eastern Digital,18,8,6
+CPU,Part 27,Northern Circuits,17,7,6
+CPU,Part 28,IBM,15,8,7
+CPU,Part 29,Micromax,12,6,5
+CPU,Part 30,Northwestern Software Solutions,11,7,7
+Keyboard,Part 31, Samsung,11,5,4
+Keyboard,Part 32, Intel,9,7,6
+Keyboard,Part 33, Western Digital,7,3,7
+Keyboard,Part 34,Vd Intellisys Technologies Private Limited,3,2,3
+Keyboard,Part 35,Printer Care System,7,5,4
+Keyboard,Part 36,Saicon Enterprises,18,7,8
+Keyboard,Part 37,Network Information Systems,16,8,6
+Keyboard,Part 38,Southern Circuits,14,5,7
+Keyboard,Part 39,Nvidia,13,4,7
+Keyboard,Part 40,AMD,8,4,5
+Keyboard,Part 41,Eastern Digital,20,10,8
+Keyboard,Part 42,Northern Circuits,19,9,7
+Keyboard,Part 43,IBM,10,5,5
+Keyboard,Part 44,Micromax,11,4,4
+Keyboard,Part 45,Northwestern Software Solutions,5,1,2
+8GB RAM,Part 47, Samsung,15,5,6
+8GB RAM,Part 48, Intel,12,7,9
+8GB RAM,Part 49, Western Digital,9,3,4
+8GB RAM,Part 50,Vd Intellisys Technologies Private Limited,8,6,4
+8GB RAM,Part 51,Printer Care System,23,9,8
+8GB RAM,Part 52,Saicon Enterprises,4,3,2
+8GB RAM,Part 53,Network Information Systems,10,2,5
+8GB RAM,Part 54,Southern Circuits,6,3,5
+8GB RAM,Part 55,Nvidia,13,4,6
+8GB RAM,Part 56,AMD,17,5,7
+8GB RAM,Part 57,Eastern Digital,19,6,7
+8GB RAM,Part 58,Northern Circuits,22,6,9
+8GB RAM,Part 59,IBM,16,7,8
+8GB RAM,Part 60,Micromax,18,8,9
+8GB RAM,Part 61,Northwestern Software Solutions,14,9,5
+Mouse,Part 62, Samsung,7,5,3
+Mouse,Part 63, Intel,10,6,5
+Mouse,Part 64, Western Digital,13,8,7
+Mouse,Part 65,Vd Intellisys Technologies Private Limited,15,6,7
+Mouse,Part 66,Printer Care System,5,5,4
+Mouse,Part 67,Saicon Enterprises,7,8,6
+Mouse,Part 68,Network Information Systems,4,3,4
+Mouse,Part 69,Southern Circuits,19,8,9
+Mouse,Part 70,Nvidia,20,9,8
+Mouse,Part 71,AMD,13,6,5
+Mouse,Part 72,Eastern Digital,23,9,9
+Mouse,Part 73,Northern Circuits,29,9,9
+Mouse,Part 74,IBM,20,7,7
+Mouse,Part 75,Micromax,30,10,9
+Mouse,Part 76,Northwestern Software Solutions,33,10,9
+Screen,Part 77, Samsung,6,9,9
+Screen,Part 78, Intel,11,4,8
+Screen,Part 79, Western Digital,15,6,6
+Screen,Part 80,Vd Intellisys Technologies Private Limited,7,3,4
+Screen,Part 81,Printer Care System,19,9,8
+Screen,Part 82,Saicon Enterprises,13,7,6
+Screen,Part 83,Network Information Systems,17,8,8
+Screen,Part 84,Southern Circuits,15,5,7
+Screen,Part 85,Nvidia,7,4,4
+Screen,Part 86,AMD,3,3,3
+Screen,Part 87,Eastern Digital,19,9,7
+Screen,Part 88,Northern Circuits,20,9,9
+Screen,Part 89,IBM,22,8,8
+Screen,Part 90,Micromax,28,10,9
+Screen,Part 91,Northwestern Software Solutions,16,6,6
+Graphic Card,Part 92, Samsung,17,8,4
+Graphic Card,Part 93, Intel,13,4,6
+Graphic Card,Part 94, Western Digital,12,5,8
+Graphic Card,Part 95,Vd Intellisys Technologies Private Limited,9,6,5
+Graphic Card,Part 96,Printer Care System,6,5,4
+Graphic Card,Part 97,Saicon Enterprises,15,7,6
+Graphic Card,Part 98,Network Information Systems,18,8,7
+Graphic Card,Part 99,Southern Circuits,13,5,8
+Graphic Card,Part 100,Nvidia,19,7,8
+Graphic Card,Part 101,AMD,20,8,8
+Graphic Card,Part 102,Eastern Digital,33,9,9
+Graphic Card,Part 103,Northern Circuits,29,9,9
+Graphic Card,Part 104,IBM,4,3,4
+Graphic Card,Part 105,Micromax,31,9,9
+Graphic Card,Part 106,Northwestern Software Solutions,20,6,7
